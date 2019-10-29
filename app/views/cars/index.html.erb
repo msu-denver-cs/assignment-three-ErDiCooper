@@ -1,6 +1,12 @@
 <script type="text/javascript" src="/javascripts/AJAXSearch.js"></script>
 <p id="notice"><%= notice %></p>
 
+<tr>
+    <th><%= link_to "Cars", cars_path(index) %></th>
+    <th colspan="2"><%= link_to "Makes", makes_path(index) %></th>
+    <th colspan="3"><%= link_to "Parts", parts_path(index) %></th>
+</tr>
+
 <h1>Cars</h1>
 
 <table>
