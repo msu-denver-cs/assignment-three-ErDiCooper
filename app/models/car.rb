@@ -5,5 +5,5 @@ class Car < ApplicationRecord
   validates_associated :parts
   
   validates :vin, length: { is: 17}
-  validates :model, length { in: 3..40}
+  validates :model, length: { in: 3..40}
 end
